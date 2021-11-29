@@ -1,6 +1,6 @@
 ![architecture](https://i.imgur.com/zsRpjzq.png)
 
-# What I have done in the assignment
+# What I have done in the project
 * Designed and implemented a matching system which takes two usernames as input and returns their optimal compatibility
 * The system consists of two clients, a main server, and three backend servers
 * Each of the two clients takes a command-line argument, and the servers do not take any command-line argument
