@@ -5,6 +5,12 @@
 * The system consists of two clients, a main server, and three backend servers
 * Each of the two clients takes a command-line argument, and the servers do not take any command-line argument
 * The clients communicate with Central server over TCP, and the Central server communicates with the three backend servers over UDP
+# Usage
+* Store user scores in scores.txt
+* Store graph edges in edgelist.txt
+* run make
+* Start ./central, ./serverT, ./serverS, ./serverP
+* run ./clientA [usrA] and ./clientB [usrB]
 # What my code files are
 ## util.cpp and util.h
 * Define global constants such as port number, hostname, MAXLINE, etc
